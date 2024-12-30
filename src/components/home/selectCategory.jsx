@@ -2,8 +2,8 @@
 
 function SelectCategory(){
     return (
-        <div className=" mt-[40vh] h-[15vh] bg-black pl-2 font-sans">
-            <div className="text-2xl  mt-1 text-white pl-1 font-semibold"> 
+        <div className=" h-[15vh] bg-black pl-2 font-sans">
+            <div className="text-2xl text-white pl-1 font-semibold"> 
                 Select Categories
             </div>
             <div className="list-item list-none mt-3 overflow-x-scroll whitespace-nowrap scrollbar-hide text-gray-300">

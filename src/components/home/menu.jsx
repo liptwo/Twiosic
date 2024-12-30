@@ -4,28 +4,28 @@ import React from 'react'
 
 const Menu = () => {
   return (
-    <div className='col-span-1 h-[90vh] bg-slate-800 text-xl text-gray-400'>
+    <div className='col-span-1 h-[90vh] bg-search text-xl text-gray-400 border-black border-[1rem] rounded-3xl'>
         <div className='block text-orange-400 mx-auto text-center text-3xl p-4 font-semibold'>
           Twiosic 
         </div>
 
         <div className='mx-6'>
-          <div className='block p-4 hover:cursor-pointer hover:bg-orange-500 hover:text-white rounded'>
+          <div className='block p-3 hover:cursor-pointer hover:bg-orange-500 hover:text-white rounded'>
             <i class="fa-solid fa-house pr-2"></i>
             Home
           </div>
 
-          <div className='block p-4 hover:cursor-pointer hover:bg-orange-500 hover:text-white rounded'>
+          <div className='block p-3 hover:cursor-pointer hover:bg-orange-500 hover:text-white rounded'>
             <i class="fa-solid fa-list pr-2"></i>
             Categories
           </div>
 
-          <div className='block p-4 hover:cursor-pointer hover:bg-orange-500 hover:text-white rounded'>
+          <div className='block p-3 hover:cursor-pointer hover:bg-orange-500 hover:text-white rounded'>
             <i class="fa-regular fa-user pr-2"></i>
             Aritists
           </div>
 
-          <div className='block p-4'>
+          <div className='block p-3'>
             <div className='hover:text-white cursor-pointer'>
               <i class="fa-solid fa-music pr-2"></i>
               Playlists

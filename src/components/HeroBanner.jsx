@@ -56,7 +56,7 @@ const HeroBanner = () => {
               <SwiperSlide>
                 <div className=''>
                   <div>
-                    <img className='w-[20rem] shadow-inner' src={slide_image} alt="slide_image" />
+                    <img className='w-[18rem] shadow-inner' src={slide_image} alt="slide_image" />
                   </div>
                   
                 </div>

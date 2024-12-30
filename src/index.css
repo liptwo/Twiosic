@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+.scrollbar-hide {
+    scrollbar-width: none;
+}
+

@@ -9,12 +9,14 @@ import "swiper/css/navigation";
 
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 
+import slide_image_6 from "../assets/images/thumnail6.png";
 import slide_image_1 from "../assets/images/thumnail1.webp";
 import slide_image_2 from "../assets/images/thumnail2.webp";
 import slide_image_3 from "../assets/images/thumnail3.webp";
 import slide_image_4 from "../assets/images/thumnail4.webp";
 import slide_image_5 from "../assets/images/thumnail5.webp";
 const slide_array = [
+  slide_image_6,
   slide_image_1,
   slide_image_2,
   slide_image_3,
@@ -69,8 +71,8 @@ const HeroBanner = () => {
             </div>
             <div className="text-white need-hidden justify-between w-[15rem] hidden flex-row relative left-[2rem] top-[-5rem] items-center">
               <div>
-                <h1 className="title">EChoes of Midnight</h1>
-                <span className="title">Jon Hickman</span>
+                <h1 className="title">Odoriko</h1>
+                <span className="title"> MINJI-(뉴진스) </span>
               </div>
               <div className="button ml-8 ">
                 <PlayCircleIcon

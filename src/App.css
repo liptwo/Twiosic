@@ -1,0 +1,45 @@
+.rhap_container{
+    background-color: rgb(63 63 70 / var(--tw-bg-opacity, 1)) !important; 
+}
+
+.rhap_time{
+    color:white !important;
+}
+
+
+.swiper_container {
+  width: 100%;
+    height: 35vh;
+
+    /* position: relative; */
+  }
+  
+.swiper-slide {
+     background-position: center;
+    width: 30rem;
+    height: 30rem;
+    /* position: relative; */
+}
+.swiper-slide img {
+    display: block;
+    border-radius: 2rem;
+    border: 1px solid white;
+    /* object-fit: cover; */
+}
+/* .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+} */

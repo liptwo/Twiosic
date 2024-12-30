@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 
 import {Swiper, SwiperSlide} from 'swiper/react';
-
+import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
@@ -30,7 +30,7 @@ const HeroBanner = () => {
   
 
   return (
-    <div className=' container h-[40vh] w-[100wh] px-16 py-4 mx-0 my-auto bg-black scroll-smooth'>
+    <div className=' flex justify-center box-border items-center h-[40vh] px-16 py-4 mx-0 my-auto bg-black overflow-hidden scroll-smooth'>
         <Swiper
         effect={'coverflow'}
          grabCursor={true}
@@ -60,13 +60,13 @@ const HeroBanner = () => {
                   </div>
                   
                 </div>
-                <div className={`text-white need-hidden  flex flex-row relative left-[2rem] top-[-5rem] items-center`}>
+                <div className='text-white need-hidden justify-between w-[15rem] hidden flex-row relative left-[2rem] top-[-5rem] items-center'>
                     <div>
                       <h1 className=''>EChoes of Midnight</h1>
                       <span className=''>Jon Hickman</span>
                     </div>
-                    <div  className='ml-8'> 
-                      <i className="scale-150 fa fa-play-circle" aria-hidden="true"></i>
+                    <div  className='ml-8 '> 
+                      <PlayCircleIcon sx={{fontSize: 50,}}></PlayCircleIcon>
                     </div>
                   </div>
               </SwiperSlide>

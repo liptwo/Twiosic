@@ -5,23 +5,28 @@ import './App.css'
 import Menu from "./components/home/menu"
 import SelectCategory from "./components/home/selectCategory"
 import PoppularSong from "./components/home/poppularSong"
+import { useState } from 'react'
+import song from '/odorikominji.mp3'
+
 
 function App() {
-
+  const [baihat, setBaiHat] = useState(song);
   return (
     <>
-      <div className='bg-zinc-800 grid grid-cols-4 '>
-          <div className='col-span-1 bg-black'>
+      <div className='bg-black overflow-auto'>
+          <div className=' absolute z-50'>
             <Menu></Menu>
           </div>
 
-          <div className="col-span-3 overflow-y-auto max-h-[90vh]">
+          <div className="bg-black overflow-auto">
             <NavBar />
-            <HeroBanner />
+            <HeroBanner setBaiHat={setBaiHat}/>
             <SelectCategory></SelectCategory>
             <PoppularSong></PoppularSong>
+            <PoppularSong></PoppularSong>
+            <PoppularSong></PoppularSong>
           </div>
-          <PlaySong />
+          <PlaySong baihat={baihat}/>
         </div>
     </>
   )

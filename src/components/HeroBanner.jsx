@@ -7,6 +7,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
+
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 
 import slide_image_6 from "../assets/images/thumnail6.png";
@@ -23,8 +24,9 @@ const slide_array = [
   slide_image_4,
   slide_image_5,
 ];
+import song from '/odorikominji.mp3'
 
-const HeroBanner = () => {
+const HeroBanner = ({setBaiHat}) => {
   const handleHidden = () => {
     const needhidden = document.getElementsByClassName(
       "swiper-slide-active need-hidden"
@@ -58,8 +60,8 @@ const HeroBanner = () => {
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
       >
-        {slide_array.map((slide_image) => (
-          <SwiperSlide>
+        {slide_array.map((slide_image,index) => (
+          <SwiperSlide key={index}>
             <div className="">
               <div>
                 <img
@@ -74,7 +76,7 @@ const HeroBanner = () => {
                 <h1 className="title">Odoriko</h1>
                 <span className="title"> MINJI-(뉴진스) </span>
               </div>
-              <div className="button ml-8 ">
+              <button className="button ml-8 " onClick={()=>setBaiHat(song)}>
                 <PlayCircleIcon
                   sx={{
                     fontSize:{
@@ -84,7 +86,7 @@ const HeroBanner = () => {
                     lg: 50,
                   }}}
                 ></PlayCircleIcon>
-              </div>
+              </button>
             </div>
           </SwiperSlide>
         ))}

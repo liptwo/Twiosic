@@ -4,10 +4,11 @@ import SearchIcon from '@mui/icons-material/Search';
 
 import React from 'react'
 
+
 const NavBar = () => {
   return (
-    <div className='bg-black w-full h-[10vh] grid grid-cols-3 gap-4 '>
-        <div className='col-span-2 text-white flex flex-row items-center'>
+    <div className='top-0 z-10 left-12 sticky w-full h-[6rem] grid grid-cols-3 gap-4 '>
+        <div className='col-span-2 text-white flex flex-row justify-end l items-center'>
             <input className='h-12 font-medium text-white m-4 pl-4 w-[70%] rounded-full bg-search ' type="text" placeholder='Search for a song'/>
             <div className='relative left-[-4rem]'>
                  <SearchIcon sx={{fontSize:30}} />

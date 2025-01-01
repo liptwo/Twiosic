@@ -1,10 +1,9 @@
-import NavBar from './components/home/NavBar'
-import HeroBanner from './components/home/HeroBanner'
+import { Routes, Route } from 'react-router-dom'
+
+import Home from './components/home/Home'
 import PlaySong from './components/home/PlaySong'
 import './App.css'
 import Menu from "./components/home/menu"
-import SelectCategory from "./components/home/selectCategory"
-import PoppularSong from "./components/home/poppularSong"
 
 function App() {
 
@@ -16,10 +15,9 @@ function App() {
           </div>
 
           <div className="col-span-3 overflow-y-auto max-h-[90vh]">
-            <NavBar />
-            <HeroBanner />
-            <SelectCategory></SelectCategory>
-            <PoppularSong></PoppularSong>
+            <Routes>
+              <Route path='/Home' element={<Home></Home>}> </Route>
+            </Routes>
           </div>
           <PlaySong />
         </div>

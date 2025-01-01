@@ -1,6 +1,6 @@
-import NavBar from './components/NavBar'
-import HeroBanner from './components/HeroBanner'
-import PlaySong from './components/PlaySong'
+import NavBar from './components/home/NavBar'
+import HeroBanner from './components/home/HeroBanner'
+import PlaySong from './components/home/PlaySong'
 import './App.css'
 import Menu from "./components/home/menu"
 import SelectCategory from "./components/home/selectCategory"

@@ -1,7 +1,7 @@
 import { ArrowRightAlt, ArrowRightSharp, ChevronLeftOutlined, LogoutSharp } from '@mui/icons-material'
-import aGirl from '../../images/aGirl.png'
-
+import { NavLink } from 'react-router-dom'
 import React from 'react'
+import aGirl from '../../images/aGirl.png'
 
 const Menu = () => {
   return (
@@ -12,20 +12,41 @@ const Menu = () => {
         <div className='flex flex-col justify-between h-[80vh]'>
         <div>
           <div className='mx-6'>
-            <div className='block p-3 hover:cursor-pointer hover:bg-orange-500 hover:text-white rounded'>
+            <NavLink
+              to='/Home'
+              className={({ isActive }) => 
+                `block p-3 hover:cursor-pointer hover:bg-orange-500 hover:text-white rounded
+                  ${isActive ? "bg-orange-500 text-white" : ""} 
+                `
+              }
+            >
               <i class="fa-solid fa-house pr-2"></i>
               Home
-            </div>
+            </NavLink>
 
-            <div className='block p-3 hover:cursor-pointer hover:bg-orange-500 hover:text-white rounded'>
+            <NavLink
+              to='/Categories'
+              className={({ isActive }) => 
+                `block p-3 hover:cursor-pointer hover:bg-orange-500 hover:text-white rounded
+                  ${isActive ? "bg-orange-500 text-white" : ""} 
+                `
+              }
+            >
               <i class="fa-solid fa-list pr-2"></i>
               Categories
-            </div>
+            </NavLink>
 
-            <div className='block p-3 hover:cursor-pointer hover:bg-orange-500 hover:text-white rounded'>
+            <NavLink
+              to='/Artists'
+              className={({ isActive }) => 
+                `block p-3 hover:cursor-pointer hover:bg-orange-500 hover:text-white rounded
+                  ${isActive ? "bg-orange-500 text-white" : ""} 
+                `
+              }
+            >
               <i class="fa-regular fa-user pr-2"></i>
-              Aritists
-            </div>
+              Artists
+            </NavLink>
 
             <div className='block p-3'>
               <div className='hover:text-white cursor-pointer'>

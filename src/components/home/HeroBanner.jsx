@@ -9,12 +9,12 @@ import "swiper/css/navigation";
 
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 
-import slide_image_6 from "../assets/images/thumnail6.png";
-import slide_image_1 from "../assets/images/thumnail1.webp";
-import slide_image_2 from "../assets/images/thumnail2.webp";
-import slide_image_3 from "../assets/images/thumnail3.webp";
-import slide_image_4 from "../assets/images/thumnail4.webp";
-import slide_image_5 from "../assets/images/thumnail5.webp";
+import slide_image_6 from "../../assets/images/thumnail6.png";
+import slide_image_1 from "../../assets/images/thumnail1.webp";
+import slide_image_2 from "../../assets/images/thumnail2.webp";
+import slide_image_3 from "../../assets/images/thumnail3.webp";
+import slide_image_4 from "../../assets/images/thumnail4.webp";
+import slide_image_5 from "../../assets/images/thumnail5.webp";
 const slide_array = [
   slide_image_6,
   slide_image_1,

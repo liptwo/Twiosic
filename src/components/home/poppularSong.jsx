@@ -2,11 +2,11 @@ import aGirl from '../../images/aGirl.png'
 
 function PoppularSong(){
     return (
-        <div className="bg-black max-h-[35vh] text-white overflow-hidden pl-2 font-sans">
+        <div className="bg-black max-h-[35vh] text-white overflow-hidden font-sans">
             <div className='text-2xl font-semibold'>
                 Poppular songs
             </div>
-            <div className="list-item list-none mt-1 overflow-x-scroll whitespace-nowrap scrollbar-hide">
+            <div className="list-item list-none mt-2 overflow-x-scroll whitespace-nowrap scrollbar-hide">
                 <li className='inline-block bg-lime-800 p-2 mr-3 text-center hover:cursor-pointer hover:opacity-80 rounded  '>
                     <img
                         src={aGirl}

@@ -1,7 +1,7 @@
 import { ArrowRightAlt, ArrowRightSharp, ChevronLeftOutlined, LogoutSharp } from '@mui/icons-material'
 import { NavLink } from 'react-router-dom'
 import React from 'react'
-import aGirl from '../../images/aGirl.png'
+import aGirl from '../../assets/images/aGirl.png'
 
 const Menu = () => {
   return (

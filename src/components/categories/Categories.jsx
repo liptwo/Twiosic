@@ -1,5 +1,5 @@
 import React from 'react'
-
+import thumnail from '../../assets/images/thumnail1.webp';
 
 const Categories = () => {
 
@@ -29,6 +29,9 @@ const Categories = () => {
         {categoryList.map((item,index)=>(
             <div key={index} style={{ backgroundColor: item.color }} className={` rounded p-5 w-[80%] h-[10rem] m-4 flex justify-start`}>
                 <p className='font-bold text-lg'>{item.name}</p>
+                <div className='flex w-full items-end justify-end'>
+                    <img src={thumnail} className=" w-20 h-20 object-cover relative right-0 bottom-0 rotate-[30deg] " alt="" />
+                </div>
             </div>  
         ))}
         </div>

@@ -3,8 +3,8 @@ import aGirl from '../../assets/images/aGirl.png'
 
 function NewRelease(){
     return (
-        <div className=" pl-[1%] py-[1%] mr-12">
-            <div className='font-bold text-2xl mb-1'>New Release</div>
+        <div className=" pl-[1%] mt-5 mr-12">
+            <div className='font-bold text-3xl m-5'>New Release</div>
             <div className='flex bg-gray-900 bg-opacity-20 rounded-lg'>
                 <div>
                     <img src={G_Sound} alt="G Sound image" className='w-96 h-60 bg-cover rounded-lg'/>

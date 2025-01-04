@@ -4,7 +4,7 @@ import image6 from '../../assets/images/thumnail5.webp'
 
 function SelectFromTwiosic(){
     return (
-    <div className="pl-[1%] pb-[1%]">
+    <div className="pl-[1%] mt-5 pb-[1%]">
         <div className="font-bold text-2xl mb-1">Recommend from Twiosic</div>
         <div className="list-item list-none mt-2 overflow-x-scroll whitespace-nowrap scrollbar-hide">
             <li className='inline-block bg-orange-800 mr-3 p-2 text-center hover:cursor-pointer hover:opacity-80 rounded    '>

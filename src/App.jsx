@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 
 import Home from './components/home/Home'
 import Artists from './components/artists/artists'
@@ -21,6 +21,7 @@ function App() {
               <Route path='/Home' element={<Home></Home>}> </Route>
               <Route path='/Categories' element={<Categories></Categories>}> </Route>
               <Route path='/Artists' element={<Artists></Artists>}></Route>
+              <Route path="/" element={<Navigate to="/Home" replace />} />
             </Routes>
           </div>
           <PlaySong />

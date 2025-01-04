@@ -5,6 +5,7 @@ import Artists from './components/artists/artists'
 import PlaySong from './components/home/PlaySong'
 import './App.css'
 import Menu from "./components/home/menu"
+import Categories from './components/categories/Categories'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <div className="col-span-3 overflow-y-auto max-h-[90vh] bg-search">
             <Routes>
               <Route path='/Home' element={<Home></Home>}> </Route>
+              <Route path='/Categories' element={<Categories></Categories>}> </Route>
               <Route path='/Artists' element={<Artists></Artists>}></Route>
             </Routes>
           </div>

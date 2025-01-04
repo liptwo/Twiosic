@@ -4,14 +4,14 @@ import image6 from '../../assets/images/baka.webp'
 
 function ListenEarly(){
     return (
-        <div className="pl-[1%] pb-[1%]">
+        <div className="pl-[1%] mt-5 pb-[1%]">
             <div className="text-2xl font-bold ">Listen recently</div>
             <div>
             <div className="list-item list-none mt-2 overflow-x-scroll whitespace-nowrap scrollbar-hide">
                 <li className='inline-block bg-lime-800 p-2 mr-3 text-center hover:cursor-pointer hover:opacity-80 rounded  '>
                     <img
                         src={image2}
-                        className='min-w-36 max-w-36 bg-cover rounded-md min-h-36'
+                        className='min-w-36 max-w-36 object-cover bg-cover rounded-md min-h-36'
                         alt='ImageMusic'
                     />
                     <div className='text-lg'>
@@ -31,7 +31,7 @@ function ListenEarly(){
                 <li className='inline-block bg-red-800 mr-3 p-2 text-center hover:cursor-pointer hover:opacity-80 rounded   '>
                     <img
                         src={image6}
-                        className='min-w-36 max-w-36 bg-cover rounded-md min-h-36'
+                        className='min-w-36 max-w-36 object-cover bg-cover rounded-md min-h-36'
                         alt='ImageMusic'
                     />
                     <div className='text-lg'>
@@ -41,7 +41,7 @@ function ListenEarly(){
                 <li className='inline-block bg-orange-800 mr-3 p-2 text-center hover:cursor-pointer hover:opacity-80 rounded    '>
                     <img
                         src={image2}
-                        className='min-w-36 max-w-36 bg-cover rounded-md min-h-36'
+                        className='min-w-36 max-w-36 object-cover bg-cover rounded-md min-h-36'
                         alt='ImageMusic'
                     />
                     <div className='text-lg'>
@@ -51,7 +51,7 @@ function ListenEarly(){
                 <li className='inline-block bg-green-700 mr-3 p-2 text-center hover:cursor-pointer hover:opacity-80 rounded '>
                     <img
                         src={image3}
-                        className='min-w-36 max-w-36 bg-cover rounded-md min-h-36'
+                        className='min-w-36 max-w-36 object-cover bg-cover rounded-md min-h-36'
                         alt='ImageMusic'
                     />
                     <div className='text-lg'>
@@ -61,7 +61,7 @@ function ListenEarly(){
                 <li className='inline-block bg-amber-800 mr-3 p-2 text-center hover:cursor-pointer hover:opacity-80 rounded '>
                     <img
                         src={image6}
-                        className='min-w-36 max-w-36 bg-cover rounded-md min-h-36'
+                        className='min-w-36 max-w-36 object-cover bg-cover rounded-md min-h-36'
                         alt='ImageMusic'
                     />
                     <div className='text-lg'>
@@ -71,7 +71,7 @@ function ListenEarly(){
                 <li className='inline-block bg-fuchsia-800 mr-3 p-2 text-center hover:cursor-pointer hover:opacity-80 rounded   '>
                     <img
                         src={image2}
-                        className='min-w-36 max-w-36 bg-cover rounded-md min-h-36'
+                        className='min-w-36 max-w-36 object-cover bg-cover rounded-md min-h-36'
                         alt='ImageMusic'
                     />
                     <div className='text-lg'>
@@ -81,7 +81,7 @@ function ListenEarly(){
                 <li className='inline-block bg-rose-800 mr-3 p-2 text-center hover:cursor-pointer hover:opacity-80 rounded  '>
                     <img
                         src={image3}
-                        className='min-w-36 max-w-36 bg-cover rounded-md min-h-36'
+                        className='min-w-36 max-w-36 object-cover bg-cover rounded-md min-h-36'
                         alt='ImageMusic'
                     />
                     <div className='text-lg'>
@@ -91,7 +91,7 @@ function ListenEarly(){
                 <li className='inline-block bg-lime-800 mr-3 p-2 text-center hover:cursor-pointer hover:opacity-80 rounded  '>
                     <img
                         src={image6}
-                        className='min-w-36 max-w-36 bg-cover rounded-md min-h-36'
+                        className='min-w-36 max-w-36 object-cover bg-cover rounded-md min-h-36'
                         alt='ImageMusic'
                     />
                     <div className='text-lg'>
